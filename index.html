@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wysiwyg</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+</head>
+
+<body class="container">
+
+  <section>
+    <h1>Ceci est une section non éditable</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet provident molestias eos amet totam ipsa
+      distinctio perferendis, sint perspiciatis error nobis quae aperiam, quaerat magnam. Eum illo modi ab rerum
+      voluptatem corrupti autem, doloremque placeat commodi! Maiores dolor qui tempore fugiat, nemo blanditiis facere,
+      aut nam beatae expedita non esse repellat consequuntur incidunt nesciunt dolorum eum sit eius voluptatum?
+      Exercitationem, ab beatae. Qui maxime nesciunt iusto, facilis dolores animi suscipit corrupti in recusandae vel
+      itaque ipsam dignissimos nostrum? Optio veritatis maxime nesciunt porro reprehenderit accusamus vero nemo tenetur
+      ratione explicabo earum aliquam sed rem inventore excepturi facere iusto quidem, magnam aspernatur esse pariatur
+      suscipit tempora quisquam nobis! Nulla debitis, culpa beatae minima laudantium hic quos! Impedit rerum blanditiis
+      et! Quia sunt itaque hic quasi ex voluptas, libero adipisci odio tenetur! Laboriosam sed, similique rem sit
+      aliquam sequi! Tempora tempore saepe deleniti possimus dignissimos quo illo incidunt fuga laudantium molestiae,
+      blanditiis quibusdam quaerat sequi aspernatur quod aperiam modi consequatur nostrum impedit dicta odit quae
+      facilis? Aspernatur libero nobis, minus qui dicta ullam. Expedita ipsam nam ipsum deserunt eius velit vitae
+      eveniet qui temporibus odio cum in voluptatem, perspiciatis ab architecto rem deleniti ut facere repellendus quasi
+      unde sed tenetur soluta. Sed.</p>
+  </section>
+
+  <section data-floatEdit>
+    Ceci est une section editable
+  </section>
+
+  <section data-floatEdit>
+  </section>
+</body>
+
+<script type="module">
+  import floatEditor from './floatEdit.js';
+  let editor = new floatEditor('[data-floatEdit]')
+</script>
+
+</html>
